@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9162b03c-5b49-4d4f-8cb3-0d020d65470d)# ENCRYPTIX
+# ENCRYPTIX
 
 This repository has 5 other sub-folders with different A.I. projects and respective README files for each to help out with project introduction and installation.
 
