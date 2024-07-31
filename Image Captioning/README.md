@@ -49,7 +49,7 @@ features = preprocess_image(img_path, model)
 
 **Tokenize Captions**
 
-```
+```python
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -83,7 +83,7 @@ sequences = pad_sequences(sequences, maxlen=max_length, padding='post')
 **Model Architecture**
 
 Define the image captioning model combining extracted features and captions.
-```
+```python 
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Input, Dropout, add
 from tensorflow.keras.models import Model
 
@@ -113,7 +113,7 @@ model.summary()
 **Training**
 
 Train the model using the image features and preprocessed captions.
-```
+```python
 def data_generator(features, captions, tokenizer, max_length):
     while True:
         for img_id, caption in zip(features.keys(), captions):
@@ -135,7 +135,7 @@ model.fit(train_generator, epochs=20, steps_per_epoch=len(data['captions']), ver
 **Generating Captions**
 
 Use the trained model to generate captions for new images.
-```   
+```python
 def generate_caption(model, tokenizer, img_feature, max_length):
     in_text = 'startseq'
     for _ in range(max_length):
