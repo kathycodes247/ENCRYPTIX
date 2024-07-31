@@ -11,7 +11,7 @@ This is a simple rule-based chatbot implemented in Python. The chatbot responds 
 To get started with the chatbot, you need to have Python installed on your system. You can download Python from the official website. (https://www.python.org/downloads/)
 
 1. Clone the repository or download the script. 
-   ```
+   ``` bash
    git clone https://github.com/kathycodes247/simple-rule-based-chatbot.git
    
    cd simple-rule-based-chatbot
