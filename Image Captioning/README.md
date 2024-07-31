@@ -6,7 +6,7 @@ This project combines computer vision and natural language processing to build a
 **Installation**
 
 To get started, clone the repository and install the required dependencies:
-```
+``` bash
 git clone https://github.com/kathycodes247/image-captioning-ai.git 
 
 cd image-captioning-ai
