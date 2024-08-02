@@ -12,7 +12,7 @@ _Combining computer vision and natural language processing to build an image cap
 
 **TIC-TAC-TOE AI**
 
-_Implementing an AI agent that plays the classic game of Tic-Tac-Toe against a human player. Used algorithms like Minimax with or without Alpha-Beta Pruning to make the AI player unbeatable. This project will helped me understand game theory and basic search algorithms._
+_Implementing an AI agent that plays the classic game of Tic-Tac-Toe against a human player. Used algorithms like Minimax with or without Alpha-Beta Pruning to make the AI player unbeatable. This project helped me to understand game theory and basic search algorithms._
 
 **RECOMMENDATION SYSTEM**
 
